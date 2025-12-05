@@ -13,11 +13,11 @@ type BookSize = {
 
 // --- Pricing Model ---
 const SIZES: BookSize[] = [
-  { id: '5x7', label: '5 x 7"', width: 5, height: 7, basePrice: 25, pricePerSheet: 1.5 },
-  { id: '6x8', label: '6 x 8"', width: 6, height: 8, basePrice: 30, pricePerSheet: 2.0 },
-  { id: '8x10', label: '8 x 10"', width: 8, height: 10, basePrice: 45, pricePerSheet: 3.0 },
-  { id: '8x12', label: '8 x 12"', width: 8, height: 12, basePrice: 50, pricePerSheet: 3.5 },
-  { id: '10x12', label: '10 x 12"', width: 10, height: 12, basePrice: 65, pricePerSheet: 4.5 },
+  { id: '5x7', label: '5 x 7"', width: 5, height: 7, basePrice: 15, pricePerSheet: 2.0 },
+  { id: '6x8', label: '6 x 8"', width: 6, height: 8, basePrice: 18, pricePerSheet: 2.5   },
+  { id: '8x10', label: '8 x 10"', width: 8, height: 10, basePrice: 25, pricePerSheet: 3.0 },
+  { id: '8x12', label: '8 x 12"', width: 8, height: 12, basePrice: 35, pricePerSheet: 4.5 },
+  { id: '10x12', label: '10 x 12"', width: 10, height: 12, basePrice: 45, pricePerSheet: 6.0 },
 ];
 
 const MIN_SHEETS = 6;
