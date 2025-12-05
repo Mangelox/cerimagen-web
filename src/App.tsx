@@ -20,8 +20,8 @@ const SIZES: BookSize[] = [
   { id: '10x12', label: '10 x 12"', width: 10, height: 12, basePrice: 45, pricePerSheet: 6.0 },
 ];
 
-const MIN_SHEETS = 6;
-const MAX_SHEETS = 48;
+const MIN_SHEETS = 0;
+const MAX_SHEETS = 24;
 
 const App = () => {
   const [selectedSize, setSelectedSize] = useState<BookSize>(SIZES[2]); // Default 8x10
