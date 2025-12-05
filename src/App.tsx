@@ -1,5 +1,4 @@
-import React, { useState, useMemo } from 'react';
-import { createRoot } from 'react-dom/client';
+import { useState, useMemo } from 'react';
 import { Camera, BookOpen, Star, ChevronRight, Send, Check, Image as ImageIcon, Heart } from 'lucide-react';
 
 // --- Configuration Types ---
@@ -8,8 +7,8 @@ type BookSize = {
   label: string;
   width: number;
   height: number;
-  basePrice: number; // Base price covering cover + binding
-  pricePerSheet: number; // Cost added per sheet
+  basePrice: number;
+  pricePerSheet: number;
 };
 
 // --- Pricing Model ---
