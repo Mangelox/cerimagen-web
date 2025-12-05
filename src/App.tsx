@@ -199,7 +199,7 @@ const App = () => {
             <div className="space-y-8 pt-6">
               <div className="flex justify-between items-end">
                 <h3 className="text-amber-500 font-bold uppercase tracking-wider text-sm">
-                  2. Cantidad de Hojas
+                  2. Cantidad de Hojas Adicionales
                 </h3>
               </div>
               
@@ -263,7 +263,7 @@ const App = () => {
                   <span className="font-semibold text-white">{selectedSize.label} Premium</span>
                 </div>
                 <div className="flex justify-between items-center text-slate-300">
-                  <span>Precio Base</span>
+                  <span>Precio Base (12 Fotos)</span>
                   <span>${selectedSize.basePrice.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between items-center text-slate-300">
