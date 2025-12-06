@@ -75,7 +75,7 @@ const App = () => {
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
           <span className="text-amber-500 tracking-[0.2em] text-sm uppercase font-bold mb-4 block animate-fade-in">
-            Estudio Profesional de Fotografía
+            Impresión Profesional de Fotografía
           </span>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Tus recuerdos merecen <br />
