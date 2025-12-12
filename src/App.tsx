@@ -202,7 +202,7 @@ const App = () => {
                   2. Cantidad de Hojas Adicionales
                 </h3>
                 <h6>
-                  <span className="text-slate-400 text-sm">Nota: Una Hoja = 1 Página = 2 Fotos </span>
+                  <span className="text-slate-400 text-sm">Nota: Una Hoja es 1 Página, y son 2 Fotos </span>
                 </h6>
               </div>
               
