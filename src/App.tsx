@@ -201,6 +201,9 @@ const App = () => {
                 <h3 className="text-amber-500 font-bold uppercase tracking-wider text-sm">
                   2. Cantidad de Hojas Adicionales
                 </h3>
+                <h6>
+                  <span className="text-slate-400 text-sm">Nota: Una Hoja = 1 Página = 2 Fotos </span>
+                </h6>
               </div>
               
               <div className="relative h-14 flex items-center justify-center">
